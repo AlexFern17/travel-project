@@ -35,6 +35,20 @@ header a {
   padding: 12px 36px;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/whale-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 75px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
