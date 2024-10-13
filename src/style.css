@@ -1,4 +1,5 @@
 .container {
+  font-family: "Caveat", cursive;
   margin: 0 auto;
   max-width: 1400px;
   text-align: center;
@@ -44,9 +45,20 @@ footer {
   padding: 75px;
 }
 
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
 footer a {
   text-decoration: underline;
   color: #ffffff;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
