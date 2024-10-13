@@ -1,2 +1,55 @@
-h1 {
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/lofoten-mountains-village.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px 36px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
 }
