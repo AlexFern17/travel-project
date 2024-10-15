@@ -55,6 +55,7 @@ section h3 {
 
 section h2 {
   font-family: "Caveat";
+  font-size: 42px;
   padding: 0;
   margin: 0 auto;
 }
@@ -72,6 +73,18 @@ section p {
 
 .gridImage1 {
   max-width: 600px;
+}
+
+.cardGrid {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 60px;
+}
+
+.cardImage {
+  max-width: 300px;
 }
 
 footer {
